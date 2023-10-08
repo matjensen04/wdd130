@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: pink;
+}
+.maincontent{
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
+h1{
+    color:white;
+}
+
+.quote{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    color: white;
+}
+.name{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    color: white;
+}
+
+.list{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    color: white;
+}
+
