@@ -1,0 +1,28 @@
+main{
+    display: grid;
+}
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.title{
+    width: 100%;
+}
+.title img{
+    text-align: center;
+}
+.pictures{
+    text-align: center;
+    margin: 0 auto;
+    background-color: grey;
+}
+.pictures img{
+    border-radius: 60%;
+    width: 20%;
+    border: 10px solid black;
+}
+
+#graphic{
+    margin: 0 3%;
+}
