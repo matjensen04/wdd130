@@ -1,0 +1,106 @@
+header{
+    background-color: #7FBEEB;
+    font-family: Skranji, Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    z-index: 100;
+}
+#logo_link{
+    
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 80px;
+    position: relative;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    z-index: 1;
+}
+nav a:hover{
+    background-color: #75DDDD;
+    color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30px repeat(7, 1fr) 30px;
+    grid-template-rows: 30px repeat(7, 1fr) 30px;
+    width: 100%;
+    gap: 10px;
+}
+.intro{
+    grid-column: 2/12;
+    grid-row: 2/3;
+}
+
+.one{
+    grid-column: 2/4;
+    grid-row: 3/5;
+    margin-top: 50px;
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row: 5/7;
+    margin-top: 40px;
+}
+
+.three{
+    grid-column: 2/4;
+    grid-row: 7/9;
+    margin-top: 30px;
+}
+
+.textone{
+    grid-row: 3/5;
+    grid-column: 6/13;
+    margin-top: 30px;
+}
+
+.textwo{
+    grid-column: 6/13;
+    grid-row: 5/7;
+    margin-top: 20px;
+}
+.texthree{
+    grid-column: 6/13;
+    grid-row: 7/9;
+    margin-top: 20px;
+}
+footer{
+    background-color: #1282A2;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
