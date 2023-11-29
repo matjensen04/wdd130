@@ -48,10 +48,11 @@ header{
     position: relative;
 }
 nav{
-    color: white;
+    color: #DBD8AE;
     display: flex;
     justify-content: space-around;
     z-index: 1;
+    font-family: var(--heading-font);
 }
 nav a{
     color: white;
@@ -61,8 +62,8 @@ nav a{
     z-index: 1;
 }
 nav a:hover{
-    background-color: #75DDDD;
-    color: black;
+    background-color: #895B1E;
+    color: #DBD8AE;
 }
 
 main{
@@ -74,6 +75,7 @@ main{
 .intro{
     grid-column: 2/12;
     grid-row: 2/3;
+    font-family: var(--paragraph-font);
 }
 
 .one{
@@ -98,6 +100,7 @@ main{
     grid-column: 7/9;
     grid-row: 3/5;
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 .textwo{
@@ -105,11 +108,13 @@ main{
     grid-row: 4/6;
     text-align: center;
     padding-top: 100px;
+    font-family: var(--paragraph-font);
 }
 .texthree{
     grid-column: 7/9;
     grid-row: 6/8;
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 footer{
     background-color: #994636;
@@ -117,20 +122,27 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: var(--heading-font);
+    color: #DBD8AE;
 }
 footer p{
     font-size: 1.2em;
+    color: white;
 }
 footer a{
     color: black;
     text-align: center;
     text-decoration: none;
+    color: white;
 }
 footer a:hover{
-    color: black;
+    background-color: #895B1E;
+    color: #DBD8AE;
 }
 footer p a:hover{
     text-decoration: underline;
+    background-color: #895B1E;
+    color: #DBD8AE;
 }
 footer .social img{
     padding-top: 15px;
